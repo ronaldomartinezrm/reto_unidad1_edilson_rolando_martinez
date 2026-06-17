@@ -9,7 +9,7 @@ Me aparece como resultado el termino nan, por el motivo de que hay columnas con 
 
 ![alt text](image.png)
 
-Para poder dare solución a esto, hay diferentes maneras, una de ellas es utilizar la función np.nan_to_num: Esta función de NumPy hace exactamente lo mismo que .fillna(0) de Pandas: transforma todos los NaN en ceros.
+Para poder dare solución a esto, hay diferentes maneras, una de ellas es utilizar la función **np.nan_to_num:** Esta función de NumPy hace exactamente lo mismo que .fillna(0) de Pandas: transforma todos los NaN en ceros.
 Podemos realizarlo de dos maneras:
 Utilizando multiplicación matricial con numpy.dot y con el operador @
 
@@ -21,6 +21,9 @@ Cuando convertimos una columna a un arreglo estrictamente puro de Numpy y hay va
 Para sacar valores estadísticos del precio unitario con Numpy se realiza de la siguiente manera:
 
 ![alt text](image-3.png)
+
+### 1.4 Reflexión CRISP-DM
+Para mi la fase mas importante de la metodologia **CRISP-DM** para desarrollar es la primera: **Comprensión del negocio** esta fase nos dice que lo primero que debemos realizar es identificar los objetivos y necesidades del proyecto teniendo claro cual es la problematica que vamos a resolver, si nosotros como desarrolladores de un proyecto no tenemos claro estos obejtivos y necesidades vamos a fracazar en las demas fases y no vamos a terminar con una buena finalidad el proyecto.
 
 
 
